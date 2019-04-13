@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-dark-story',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dark-story.component.css']
 })
 export class DarkStoryComponent implements OnInit {
+
+  @Input() story: any;
 
   constructor() { }
 

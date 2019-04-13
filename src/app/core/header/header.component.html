@@ -1,152 +1,78 @@
 <div id="menu" class="menu flex-column relative">
   <header class="menu__inner relative align-center fill-menu">
   <a class="menu__logo inline-block pad-1 align-middle color-menu type-sans" data-track-gtm="Global Navigation|WCS" href="/">
-    <img alt="WCS.org" class="block" width="44" src="/assets/wcsorg/logos/green-blue-bright-1d2d4911480bc53cd651f527ab1e79d2.svg">
+    <img alt="WCS.org" class="block" width="44" src="/assets/wcs-logo.png">
     <span class="hide-visually">WCS</span>
 </a>
-  <button class="hamburger absolute position-top position-left" aria-controls="menu" aria-label="Menu">
+  
+  <nav class="navbar navbar-expand-lg navbar-light d-block">
+      <button class="hamburger absolute position-top position-left navbar-toggler" 
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
 
-  <span class="hamburger__label type-submenu color-neutral pad-1-right">
-    Menu
-  </span>
-
-  <span class="hamburger__icon color-polar align-middle" aria-hidden="true">
-    <span class="hamburger__icon__top"></span>
-    <span class="hamburger__icon__middle"></span>
-    <span class="hamburger__icon__bottom"></span>
-  </span>
-
-</button>
-
-
-  <nav id="menu" class="menu__nav fill-sandpaper">
-    <div class="menu__nav__inner align-center pad-2">
-      <ul>
-            <li>
-              <button class="menu__nav__inner__btn type-menu color-menu" aria-controls="about-us" data-track-gtm="Global Navigation|About Us">
+          <span class="hamburger__label type-submenu color-neutral pad-1-right">
+            Menu
+          </span>
+        
+          <span class="hamburger__icon color-polar align-middle" aria-hidden="true">
+            <span class="hamburger__icon__top"></span>
+            <span class="hamburger__icon__middle"></span>
+            <span class="hamburger__icon__bottom"></span>
+          </span>
+        
+        </button>
+      
+      <div class="collapse navbar-collapse side-nav" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto d-block">
+          <li
+            class="dropdown nav-item">
+            <button class="menu__nav__inner__btn type-menu color-menu" 
+              aria-controls="about-us" data-track-gtm="Global Navigation|About Us">
                 About Us
-              </button>
-
-                <ul id="about-us" class="menu__nav__inner__flyout list-links type-menu">
-                      <li>
-                        <a data-track-gtm="Global Navigation|About Us|Mission, Vision, Values" href="/about-us">Mission, Vision, Values</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|About Us|Leadership &amp; Trustees" href="/about-us/management">Leadership &amp; Trustees</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|About Us|Contact" href="/about-us/offices">Contact</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|About Us|Careers" href="/about-us/careers">Careers</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|About Us|Annual Reports &amp; More" href="/about-us/literature">Annual Reports &amp; More</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|About Us|Financials" href="/about-us/financials">Financials</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|About Us|Grants" href="/about-us/grants">Grants</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|About Us|Partners" href="/about-us/partners">Partners</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|About Us|Library &amp; Archives" href="https://library.wcs.org/">Library &amp; Archives</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|About Us|Education" href="https://www.wcs.org/education">Education</a>
-                      </li>
-                </ul>
-            </li>
-            <li>
+            </button>
+          </li>
+          <li  class="dropdown nav-item">
               <button class="menu__nav__inner__btn type-menu color-menu" aria-controls="our-work" data-track-gtm="Global Navigation|Our Work">
-                Our Work
-              </button>
-
-                <ul id="our-work" class="menu__nav__inner__flyout list-links type-menu">
-                      <li>
-                        <a data-track-gtm="Global Navigation|Our Work|Overview" href="/our-work">Overview</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|Our Work|Our Priority Regions" href="/our-work/places">Our Priority Regions</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|Our Work|Wildlife" href="/our-work/wildlife">Wildlife</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|Our Work|Communities" href="/our-work/communities">Communities</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|Our Work|Our Science" href="https://library.wcs.org/Scientific-Research/Research-Publications/Staff-Bibliography.aspx">Our Science</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|Our Work|Solutions" href="/our-work/solutions">Solutions</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|Our Work|2020 Strategy" href="/our-work/2020-strategy">2020 Strategy</a>
-                      </li>
-                </ul>
-            </li>
-            <li>
+                  Our Work
+                </button>
+          </li>
+          <li>
               <button class="menu__nav__inner__btn type-menu color-menu" aria-controls="zoos-aquarium" data-track-gtm="Global Navigation|Zoos &amp; Aquarium">
-                Zoos &amp; Aquarium
-              </button>
-
-                <ul id="zoos-aquarium" class="menu__nav__inner__flyout list-links type-menu">
-                      <li>
-                        <a data-track-gtm="Global Navigation|Zoos &amp; Aquarium|Overview" href="/parks">Overview</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|Zoos &amp; Aquarium|Bronx Zoo" href="https://bronxzoo.com/">Bronx Zoo</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|Zoos &amp; Aquarium|Central Park Zoo" href="https://centralparkzoo.com/">Central Park Zoo</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|Zoos &amp; Aquarium|New York Aquarium" href="https://nyaquarium.com/">New York Aquarium</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|Zoos &amp; Aquarium|Prospect Park Zoo" href="https://prospectparkzoo.com/">Prospect Park Zoo</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|Zoos &amp; Aquarium|Queens Zoo" href="https://queenszoo.com/">Queens Zoo</a>
-                      </li>
-                </ul>
-            </li>
-            <li>
-              <button class="menu__nav__inner__btn type-menu color-menu" aria-controls="ways-to-support" data-track-gtm="Global Navigation|Ways to Support">
-                Ways to Support
-              </button>
-
-                <ul id="ways-to-support" class="menu__nav__inner__flyout list-links type-menu">
-                      <li>
-                        <a data-track-gtm="Global Navigation|Ways to Support|Ways to Give" href="/support">Ways to Give</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|Ways to Support|Corporations" href="/corporations">Corporations</a>
-                      </li>
-                      <li>
-                        <a data-track-gtm="Global Navigation|Ways to Support|Get Involved" href="/get-involved">Get Involved</a>
-                      </li>
-                </ul>
-            </li>
-              <li class="list-links">
-                <a class="menu__nav__inner__btn type-menu color-menu" data-track-gtm="Global Navigation|Newsroom" href="https://newsroom.wcs.org/">Newsroom</a>
-              </li>
-      </ul>
-
-        <a class="menu__nav__inner__action btn fill-highlight align-center pad-1 margin-3-top" data-track-gtm="Global Navigation|Call to Action|https://www.wcs.org/wcs-donate" href="https://www.wcs.org/wcs-donate">Donate</a>
-    </div>
-  </nav>
-
-  <button class="search__btn absolute position-top position-right pad-2" aria-controls="search" aria-label="Search WCS.org">
+                  Zoos &amp; Aquarium
+                </button>
+          </li>
+          <li
+           
+            class="nav-item dropdown"
+          >
+          <button class="menu__nav__inner__btn type-menu color-menu" aria-controls="ways-to-support" data-track-gtm="Global Navigation|Ways to Support">
+              Ways to Support
+            </button>
+          </li>
+          <li
+           
+            class="nav-item dropdown"
+          >
+         
+              <a class="menu__nav__inner__btn type-menu color-menu" data-track-gtm="Global Navigation|Newsroom" href="https://newsroom.wcs.org/">Newsroom</a>
+           </li>
+        </ul>
+        <div>
+            <a class="menu__nav__inner__action btn fill-highlight align-center pad-1 margin-3-top" data-track-gtm="Global Navigation|Call to Action|https://www.wcs.org/wcs-donate" href="https://www.wcs.org/wcs-donate">Donate</a>
+        </div>
+      </div>
+     
+      
+    </nav>
+  <button class="search__btn absolute  position-right pad-2" aria-controls="search" aria-label="Search WCS.org">
+    <i class="fa fa-search search-icon"></i>
     <span class="hide-visually">
       Search WCS.org
     </span>
-    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="5 5.9 20 20.2" enable-background="new 5 5.9 20 20.2" class="inline-block align-middle"><g stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><circle cx="14.1" cy="15" r="8.1"></circle><path d="M19.8 20.7l4.2 4.4"></path></g></svg>
-
   </button>
 
   <section class="search__menu menu__nav fill-sandpaper" id="search">

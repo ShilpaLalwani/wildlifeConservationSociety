@@ -1,3 +1,4 @@
+@import '~font-awesome/css/font-awesome.css';
 /* You can add global styles to this file, and also import other style files */
 *,
 *:after,
@@ -13,7 +14,8 @@ html {
 }
 
 body {
-  margin: 0
+  width: 100%;
+  overflow-x: hidden;
 }
 
 article,
@@ -420,8 +422,8 @@ body.wcsorg--simple {
 }
 
 .fill-callout {
-  background-color: #d83237;
-  color: #ffffff
+  background-color: #d83237!important;
+  color: #ffffff!important;
 }
 
 .fill-callout-alt {
@@ -430,7 +432,7 @@ body.wcsorg--simple {
 }
 
 .fill-highlight {
-  background-color: #00b3a3;
+  background-color: #00b3a3!important;
   color: #ffffff
 }
 
@@ -576,7 +578,7 @@ body.wcsorg--simple {
 }
 
 .fill-gold {
-  background-color: #ac9167
+  background-color: #ac9167!important
 }
 
 .fill-quartz {
@@ -2790,7 +2792,7 @@ body.wcsorg--simple {
 }
 
 .position-top {
-  top: 0
+  top: -61px;
 }
 
 .position-bottom {
@@ -4194,7 +4196,7 @@ html,
   .type-body,
   .type-base {
     font-size: 18px;
-    font-size: 1.125rem;
+    font-size: 1.225rem;
     line-height: 1.78
   }
 }
@@ -4377,14 +4379,14 @@ html,
 .btn-fill-link,
 .btn {
   display: inline-block;
-  font-size: 14px;
-  font-size: 0.875rem;
-  letter-spacing: 0.04em;
-  line-height: 16px;
-  padding: 12px 32px;
-  position: relative;
-  -webkit-transition: background-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out;
+  font-size: 14px!important;
+  font-size: 0.875rem!important;
+  letter-spacing: 0.04em!important;
+  line-height: 16px!important;
+  padding: 12px 32px!important;
+  position: relative!important;
+  -webkit-transition: background-color 0.2s ease-in-out!important;
+  transition: background-color 0.2s ease-in-out!important;
   z-index: 0
 }
 
@@ -4526,7 +4528,7 @@ html,
 .fill-callout.btn-fill-primary:active,
 .fill-callout.btn-fill-link:active,
 .btn.fill-callout:active {
-  background: #ca262b
+  background: #ca262b !important
 }
 
 .fill-callout-alt.btn-large:focus,
@@ -5569,7 +5571,7 @@ html,
   .page-hero__html h3,
   .page-hero__html h4 {
     font-size: 56px;
-    font-size: 3.5rem
+    font-size: 4rem
   }
 }
 
@@ -6198,6 +6200,9 @@ html,
 @media screen and (max-width: 767px) {
   .banner-promotion-modal.-dark {
     background-color: #00b3a3
+  }
+  .-dark .story__inner{
+    padding-left:24px;
   }
 }
 
@@ -10377,4 +10382,26 @@ body[data-whatinput="keyboard"] .menu__nav.open .menu__nav__inner__action {
 
 .donation-promo__form.-two-up label.btn {
   text-align: center
+}
+.display-flex{
+  display: flex;
+}
+.pt-25{
+  padding-top: 25px;
+}
+@media screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse.side-nav{
+    display: block !important;
+  }
+}
+.search__btn  {
+  top: 0;
+}
+.search-icon{
+  color: #ac9167;
+  font-size: 22px;
+}
+a:hover{
+  text-decoration: none!important;
+  color:inherit!important;
 }

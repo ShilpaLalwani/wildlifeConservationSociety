@@ -7,10 +7,11 @@ import { LightStoryComponent } from './components/light-story/light-story.compon
 import { NewsComponent } from './components/news/news.component';
 import { NewsCardComponent } from './components/news-card/news-card.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
+import { LearnMoreComponent } from './components/learn-more/learn-more.component';
 
 @NgModule({
-  declarations: [HeroComponent, StoryComponent, DarkStoryComponent, LightStoryComponent, NewsComponent, NewsCardComponent, SignUpComponent],
+  declarations: [HeroComponent, StoryComponent, DarkStoryComponent, LightStoryComponent, NewsComponent, NewsCardComponent, SignUpComponent, LearnMoreComponent],
   imports: [CommonModule],
-  exports: [HeroComponent, StoryComponent, DarkStoryComponent, LightStoryComponent, NewsComponent, NewsCardComponent, SignUpComponent]
+  exports: [HeroComponent, StoryComponent, DarkStoryComponent, LightStoryComponent, NewsComponent, NewsCardComponent, SignUpComponent, LearnMoreComponent]
 })
 export class SharedModule { }
